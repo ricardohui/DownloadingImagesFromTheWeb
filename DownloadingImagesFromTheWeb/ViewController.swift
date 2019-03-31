@@ -20,7 +20,7 @@ class ViewController: UIViewController {
             let documentsDirectory = documentsPath[0]
             let restorePath = documentsDirectory + "/bach.jpg"
             
-            ximageView.image = UIImage(contentsOfFile: restorePath)
+            imageView.image = UIImage(contentsOfFile: restorePath)
             
         }
         
